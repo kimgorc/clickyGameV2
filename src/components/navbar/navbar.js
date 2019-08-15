@@ -5,9 +5,9 @@ class Navbar extends Component {
     render() {
         return (
             <div className="nav justify-content-center">
-                <p className="nav-item">
+                <div className="nav-item">
                     <p>{this.props.isCorrect}</p>
-                </p>   
+                </div>   
             </div>
         );
     }
